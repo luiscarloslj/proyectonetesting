@@ -1,7 +1,7 @@
-#mainbox {
+#redtopbox {
 
   background: red;
-  height: 300px;
+  height: 200px;
   font-style: normal;
   color: white;
   width: auto;
@@ -10,14 +10,4 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
-}
-div {
-  border: 2px steelblue;
-  background-color: green;
-  width: 120px;
-  text-align: center;
-
-}
-#individual {
-  width: 600px;
 }
