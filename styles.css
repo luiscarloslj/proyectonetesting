@@ -11,3 +11,22 @@
   align-items: center;
   align-content: center;
 }
+* {
+  color:white;
+}
+
+p {
+  color:darkblue;
+}
+.attempt {
+  font-size: 20px;
+}
+
+.attempt p {
+  color:green;
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 1.5
+
+}
