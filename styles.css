@@ -11,22 +11,47 @@
   align-items: center;
   align-content: center;
 }
-* {
-  color:white;
+
+div {
+  border-radius: 20px;
 }
 
-p {
-  color:darkblue;
-}
-.attempt {
-  font-size: 20px;
+.container {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: block;
+  position:relative;
+
 }
 
-.attempt p {
-  color:green;
-  font-size: 2em;
-  font-family: arial;
-  font-weight: bold;
-  line-height: 1.5
+.box {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  padding: 45px;
+  box-sizing: border-box;
+  border: 5px solid black;
 
+}
+#box1 {
+  position: absolute;
+
+
+}
+#box2 {
+  position: absolute;
+  right: 0px;
+}
+
+#box3 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#box4 {
+  position: absolute;
+  bottom: 0;
 }
