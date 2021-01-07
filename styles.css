@@ -12,46 +12,59 @@
   align-content: center;
 }
 
-div {
-  border-radius: 20px;
-}
-
-.container {
-  background-color: red;
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  display: block;
-  position:relative;
-
-}
-
-.box {
-  background-color: green;
-  width: 100px;
-  height: 100px;
-  padding: 45px;
+.box1 {
+  font-size: 20px;
+  font-family: aria;
+  font-weight: bold;
+  color: green;
+  padding: 10px;
+  background-color: lightblue;
+  border: 5px solid blue;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
   box-sizing: border-box;
-  border: 5px solid black;
-
-}
-#box1 {
-  position: absolute;
-
-
-}
-#box2 {
-  position: absolute;
-  right: 0px;
+  display: inline-block;
+  overflow: auto;
 }
 
-#box3 {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
+.box2 {
+  font-size: 20px;
+  font-family: serif;
+  color: blue;
+  background-color: lightgreen;
+  font-weight: bolder;
+  padding: 10px;
+  border: 5px solid green;
+  margin: 5px;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: auto;
+  position: relative;
+  left: -205px;
+  top: 45px;
+  z-index: -1;
+
+
+}
+.box2:hover {
+  position: relative;
+  z-index: 1;
+
 }
 
-#box4 {
-  position: absolute;
-  bottom: 0;
+p::first-line {
+
+  color: gray;
+
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+p::selection {
+  color: red;
+  background-color: blue;
 }
