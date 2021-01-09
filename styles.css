@@ -15,17 +15,20 @@ nav {
   position: sticky;
   top: 0;
 }
+
+
 .ul__container {
   background-color: #0044ff;
   margin: 0px;
 
+
 }
 li {
+  width: 200px;
   padding: 10px;
   display: inline-block;
   background-color: #0044ff;
   font-size: 20px;
-  font-family: arial;
   position: relative;
   left: -40px;
   transition: 1s;
@@ -38,6 +41,8 @@ a {
   color: white;
   text-decoration: none;
   cursor: grabbing ;
+  font-family: arial;
+
 }
 
 p {
@@ -46,9 +51,50 @@ p {
 }
 
 img {
-  display: inline-block;
+
   float: left;
-  width: 50%;
+  width: 40%;
   margin-top: 30px;
   margin-right: 20px;
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+
+  li {
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+    background-color: #0044ff;
+    font-size: 20px;
+    position: relative;
+
+    transition: 1s;
+  }
+
+  .ul__container {
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+}
+@media (max-width: 700px) {
+
+  li {
+    width: 100%;
+
+    
+    background-color: #0044ff;
+    font-size: 20px;
+    position: relative;
+
+    transition: 1s;
+  }
+
+  img {
+    width: 100%;
+  }
+
 }
