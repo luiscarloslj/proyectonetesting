@@ -1,6 +1,6 @@
 #redtopbox {
 
-  background: red;
+  background: #00aaff;
   height: 200px;
   font-style: normal;
   color: white;
@@ -18,7 +18,7 @@ nav {
 
 
 .ul__container {
-  background-color: #0044ff;
+  background-color: #00ccff;
   margin: 0px;
 
 
@@ -27,18 +27,18 @@ li {
   width: 200px;
   padding: 10px;
   display: inline-block;
-  background-color: #0044ff;
+  background-color: #00ccff;
   font-size: 20px;
   position: relative;
   left: -40px;
   transition: 1s;
 }
 li:hover {
-  background-color: #ffaa00;
+  background-color: #00aaff;
 }
 
 a {
-  color: white;
+  color: #000000;
   text-decoration: none;
   cursor: grabbing ;
   font-family: arial;
@@ -77,6 +77,7 @@ img {
 
   img {
     width: 100%;
+
   }
 
 }
@@ -85,7 +86,7 @@ img {
   li {
     width: 100%;
 
-    
+
     background-color: #0044ff;
     font-size: 20px;
     position: relative;
